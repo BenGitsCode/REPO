@@ -3,7 +3,6 @@
   "deploy": [
     "shell:git-is-clean",
     "shell:git-checkout-master",
-    "build",
     "shell:git-push-master",
     "shell:deploy-prepare-1",
     "shell:deploy-prepare-2",

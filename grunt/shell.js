@@ -37,7 +37,7 @@ module.exports = {
   'deploy-publish-2': {
     command: `git add --force .nojekyll ${ghPagesList}`
   },
-  'deploy-publis-3': {
+  'deploy-publish-3': {
     command: 'git commit -m "deploy task"'
   },
   'deploy-publish-4': {

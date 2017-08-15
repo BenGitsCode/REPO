@@ -27,7 +27,7 @@ module.exports = {
   'deploy-prepare-2': {
     command: 'git checkout --orphan gh-pages' 
   },
-  'deploy-preare-3': {
+  'deploy-prepare-3': {
     command: 
       'git rm --cached \'*\''
   },
